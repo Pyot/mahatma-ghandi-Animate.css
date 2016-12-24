@@ -1,0 +1,380 @@
+body {
+    font-family: 'Rokkitt', cursive;
+}
+
+.container .row h2 {
+    font-weight: 600;
+}
+
+p {
+    opacity: 0.7;
+}
+
+.sx-menu {
+    display: block;
+    margin-top: 20vh;
+}
+
+.sx-menu-signature {
+    display: block;
+    margin-top: 11vh;
+    margin-right: auto;
+    margin-left: auto;
+    opacity: 0.7;
+}
+
+.sm-bg {
+    background: url(http://ongo.biz/photos/ghandi-opacity.png) no-repeat center center;
+    background-size: 50vh;
+    height: 100vh;
+}
+
+.container-fluid .container h3 {
+    margin-top: 3%;
+    font-size: 19px;
+}
+
+.container-fluid .container h2 {
+    margin-bottom: 0px;
+}
+
+.go-to-top .row .col-sm-12 h4 a i {
+    color: black;
+    font-size: 27px;
+    opacity: 0.7;
+}
+
+.go-to-top .row .col-sm-12 h4 a {
+    font-family: 'Rokkitt';
+    color: black;
+    opacity: 0.7;
+    font-size: 15px;
+}
+
+
+/*image1*/
+
+.gap-right {
+    margin-top: 4px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+
+
+/*image1-END*/
+
+.go-to-top-fixed {
+    position: fixed;
+    bottom: 15px;
+    right: 50%;
+    height: 20px;
+}
+
+.go-to-top-fixed .fa-sort-up {
+    font-size: 45px;
+    color: black;
+    padding-bottom: 55px;
+}
+
+
+/*buttons under main banner*/
+
+a:hover {
+    text-decoration: none;
+}
+
+.btn-custom {
+    background: rgba(255, 255, 255, 0);
+    border-color: rgba(204, 204, 204, 0);
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 32px;
+    border-radius: 0px;
+    border-width: 0px;
+}
+
+.btn-custom:hover {
+    background: rgba(235, 235, 235, 0);
+    border-color: rgba(173, 173, 173, 0);
+    color: rgba(51, 51, 51, 0.3);
+}
+
+.btn-custom:active,
+.btn-custom:focus {
+    border-width: 0px;
+    transform: translateY(-4px);
+}
+
+.btn-custom-sx {
+    background: rgba(255, 255, 255, 0);
+    border-color: rgba(204, 204, 204, 0);
+    color: rgba(0, 0, 0, 0.9);
+    font-size: 42px;
+    border-radius: 0px;
+    border-width: 0px;
+}
+
+.btn-custom-sx:hover {
+    background: rgba(235, 235, 235, 0);
+    border-color: rgba(173, 173, 173, 0);
+    color: rgba(51, 51, 51, 0.3);
+}
+
+.btn-custom-sx:active,
+.btn-custom:focus {
+    border-width: 0px;
+    transform: translateY(-4px);
+}
+
+
+/*History Time line*/
+
+.timeline {
+    list-style: none;
+    padding: 0;
+    position: relative;
+}
+
+.timeline:before {
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    content: "";
+    width: 2px;
+    background-color: #f1f1f1;
+    left: 40px;
+    margin-left: -1.5px;
+}
+
+.timeline > li {
+    margin-bottom: 50px;
+    position: relative;
+    min-height: 50px;
+}
+
+.timeline > li:before,
+.timeline > li:after {
+    content: " ";
+    display: table;
+}
+
+.timeline > li:after {
+    clear: both;
+}
+
+.timeline > li .timeline-panel {
+    width: 100%;
+    float: right;
+    padding: 0 20px 0 100px;
+    position: relative;
+    text-align: left;
+}
+
+.timeline > li .timeline-panel:before {
+    border-left-width: 0;
+    border-right-width: 15px;
+    left: -15px;
+    right: auto;
+}
+
+.timeline > li .timeline-panel:after {
+    border-left-width: 0;
+    border-right-width: 14px;
+    left: -14px;
+    right: auto;
+}
+
+.timeline > li .timeline-image {
+    left: 0;
+    margin-left: 0;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    z-index: 100;
+    background-color: #fed136;
+    color: white;
+    border-radius: 100%;
+    border: 7px solid #f1f1f1;
+    text-align: center;
+}
+
+.timeline > li .timeline-image h4 {
+    font-size: 10px;
+    margin-top: 12px;
+    line-height: 14px;
+}
+
+.timeline > li.timeline-inverted > .timeline-panel {
+    float: right;
+    text-align: left;
+    padding: 0 20px 0 100px;
+}
+
+.timeline > li.timeline-inverted > .timeline-panel:before {
+    border-left-width: 0;
+    border-right-width: 15px;
+    left: -15px;
+    right: auto;
+}
+
+.timeline > li.timeline-inverted > .timeline-panel:after {
+    border-left-width: 0;
+    border-right-width: 14px;
+    left: -14px;
+    right: auto;
+}
+
+.timeline > li:last-child {
+    margin-bottom: 0;
+}
+
+.timeline .timeline-heading h4 {
+    margin-top: 0;
+    color: inherit;
+}
+
+.timeline .timeline-heading h4.subheading {
+    text-transform: none;
+}
+
+.timeline .timeline-body > p,
+.timeline .timeline-body > ul {
+    margin-bottom: 0;
+}
+
+@media (min-width: 768px) {
+    .timeline:before {
+        left: 50%;
+    }
+    .timeline > li {
+        margin-bottom: 100px;
+        min-height: 100px;
+    }
+    .timeline > li .timeline-panel {
+        width: 41%;
+        float: left;
+        padding: 0 20px 20px 30px;
+        text-align: right;
+    }
+    .timeline > li .timeline-image {
+        width: 100px;
+        height: 100px;
+        left: 50%;
+        margin-left: -50px;
+    }
+    .timeline > li .timeline-image h4 {
+        font-size: 13px;
+        margin-top: 16px;
+        line-height: 18px;
+    }
+    .timeline > li.timeline-inverted > .timeline-panel {
+        float: right;
+        text-align: left;
+        padding: 0 30px 20px 20px;
+    }
+}
+
+@media (min-width: 992px) {
+    .timeline > li {
+        min-height: 150px;
+    }
+    .timeline > li .timeline-panel {
+        padding: 0 20px 20px;
+    }
+    .timeline > li .timeline-image {
+        width: 150px;
+        height: 150px;
+        margin-left: -75px;
+    }
+    .timeline > li .timeline-image h4 {
+        font-size: 18px;
+        margin-top: 30px;
+        line-height: 26px;
+    }
+    .timeline > li.timeline-inverted > .timeline-panel {
+        padding: 0 20px 20px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .timeline > li {
+        min-height: 170px;
+    }
+    .timeline > li .timeline-panel {
+        padding: 0 20px 20px 100px;
+    }
+    .timeline > li .timeline-image {
+        width: 170px;
+        height: 170px;
+        margin-left: -85px;
+    }
+    .timeline > li .timeline-image h4 {
+        margin-top: 40px;
+    }
+    .timeline > li.timeline-inverted > .timeline-panel {
+        padding: 0 100px 20px 20px;
+    }
+}
+
+
+/*background motto*/
+
+.container-motto {
+    background-image: url(http://www.sbs.com.au/yourlanguage/sites/sbs.com.au.yourlanguage/files/ghandi.jpg);
+    color: whitesmoke;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/*turn off on sx*/
+
+.turn-off-sx {
+    display: none;
+}
+
+
+/*
+/*Philosoph*/
+
+.featurette-divider {
+    margin: 80px 0;
+}
+
+.featurette {
+    overflow: hidden;
+}
+
+.featurette-image.pull-left {
+    margin-right: 40px;
+}
+
+.featurette-image.pull-right {
+    margin-left: 40px;
+}
+
+footer {
+    margin: 50px 0;
+}
+
+footer p {
+    margin: 0px;
+    text-align: center;
+}
+
+
+/*Philosoph END*/
+
+http: //ongo.biz/photos/ghandi.png
+display: table;
+position: relative;
+width: 100%;
+height: 100vh;
+background: url("background-low.jpg") no-repeat center center scroll;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+background-size: cover;
+-o-background-size: cover;
+margin-bottom: 0px;
+*/

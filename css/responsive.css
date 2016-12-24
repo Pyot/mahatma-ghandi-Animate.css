@@ -1,0 +1,266 @@
+            /* Extra small devices (phones, less than 768px) */
+    /* No media query since this is the default in Bootstrap */
+    /* Small sm devices (tablets, 768px and up) */
+    
+    @media (min-width: 768px) {
+        h2 {
+            padding-bottom: 30px;
+            padding-top: 30px;
+            font-size: 35px;
+        }
+        .featurette-heading {
+            padding-bottom: 0px;
+            padding-top: 0px;
+            font-size: 30px;
+        }
+        .container-fluid .container h2 {
+            padding-top: 4%;
+        }
+        .container-fluid .container h3 {
+            font-size: 24px;
+        }
+        h4 {
+            font-size: 20px;
+        }
+        p {
+            font-size: 18px;
+        }
+        .caption p {
+            padding-bottom: 20px;
+        }
+        .turn-off-sx {
+            display: block;
+        }
+        .turn-off-sm {
+            display: none;
+        }
+        .container-g {
+            margin-top: 10vh;
+            max-height: 100vh;
+            height: 100vh;
+        }
+        .row-g1 {
+            max-height: 80vh;
+        }
+        .row-g2 {
+            height: 20vh;
+        }
+        .ghandi-text {
+            font-size: 45px;
+            padding-top: 15vh;
+            font-family: 'Rokkitt';
+            opacity: 0.5;
+        }
+        .ghandi-text-sign {
+            font-size: 22px;
+            text-align: right;
+            font-family: 'Abril Fatface';
+            opacity: 0.5;
+            padding-right: 15px;
+        }
+        .sm-bg {
+            display: none;
+        }
+        .img-responsive-sm-g {
+            display: block;
+            width: auto;
+            max-height: 90vh;
+        }
+        .gap-right {
+            margin-top: 4px;
+            margin-right: 15px;
+            margin-bottom: 0px;
+        }
+        .fadeIn-ghandi-photo {
+            animation-duration: 5s;
+            animation-delay: 0s;
+            animation-iteration-count: 1;
+        }
+        .fadeIn-text {
+            animation-duration: 3s;
+            animation-delay: 1s;
+            animation-iteration-count: 1;
+        }
+        
+        .fadeIn-btn1 {
+            animation-duration: 2s;
+            animation-delay: 2s;
+            animation-iteration-count: 1;
+        }
+        
+        .fadeIn-btn2 {
+            animation-duration: 1.8s;
+            animation-delay: 2.5s;
+            animation-iteration-count: 1;
+        }
+        
+        .fadeIn-btn3 {
+            animation-duration: 1.6s;
+            animation-delay: 3s;
+            animation-iteration-count: 1;
+        }
+        
+        @-webkit-keyframes fadeIn-text {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 0.6;
+            }
+        }
+        @keyframes fadeIn-text {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 0.6;
+            }
+        }
+        .fadeIn-text {
+            -webkit-animation-name: fadeIn-text;
+            animation-name: fadeIn-text;
+        }
+        /* Medium md devices (desktops, 992px and up) */
+        @media (min-width: 992px) {
+            h2 {
+                padding-bottom: 30px;
+                padding-top: 30px;
+                font-size: 50px;
+            }
+            .btn-custom {
+                font-size: 44px;
+            }
+            .container-g {
+                margin-top: 10vh;
+                max-height: 100vh;
+                width: 115vh;
+            }
+            .row-g1 {
+                max-height: 80vh;
+            }
+            .row-g2 {
+                height: 20vh;
+            }
+            .ghandi-text {
+                font-size: 45px;
+                padding-top: 15vh;
+                font-family: 'Rokkitt';
+                opacity: 0.7;
+            }
+            .ghandi-text-sign {
+                font-size: 22px;
+                text-align: right;
+                font-family: 'Abril Fatface';
+                opacity: 0.5;
+                padding-right: 15px;
+            }
+        }
+        /* Large devices lg (large desktops, 1200px and up) */
+        @media (min-width: 1200px) {
+            .ghandi-text {
+                font-size: 55px;
+                padding-top: 15vh;
+                font-family: 'Rokkitt';
+                opacity: 0.7;
+            }
+            .ghandi-text-sign {
+                font-size: 25px;
+                text-align: right;
+                font-family: 'Abril Fatface';
+                opacity: 0.5;
+                padding-right: 15px;
+            }
+        }
+        /*Philisophy*/
+        @media(max-width:1200px) {
+            eadline h1 {
+                font-size: 140px;
+            }
+            eadline h2 {
+                font-size: 63px;
+            }
+            .featurette-divider {
+                margin: 50px 0;
+            }
+            .featurette-image.pull-left {
+                margin-right: 20px;
+            }
+            .featurette-image.pull-right {
+                margin-left: 20px;
+            }
+            eaturette-heading {
+                font-size: 35px;
+            }
+        }
+        @media(max-width:991px) {
+            eadline h1 {
+                font-size: 105px;
+            }
+            eadline h2 {
+                font-size: 50px;
+            }
+            .featurette-divider {
+                margin: 40px 0;
+            }
+            .featurette-image {
+                max-width: 50%;
+            }
+            .featurette-image.pull-left {
+                margin-right: 10px;
+            }
+            .featurette-image.pull-right {
+                margin-left: 10px;
+            }
+            .featurette-heading {
+                padding-top: 0px;
+                padding-bottom: 0px;
+            }
+        }
+        @media(max-width:768px) {
+            .container {
+                margin: 0 15px;
+            }
+            .featurette-divider {
+                margin: 40px 0;
+            }
+            eaturette-heading {
+                font-size: 25px;
+            }
+        }
+        @media(max-width:668px) {
+            eadline h1 {
+                font-size: 70px;
+            }
+            eadline h2 {
+                font-size: 32px;
+            }
+            .featurette-divider {
+                margin: 30px 0;
+            }
+        }
+        @media(max-width:640px) {
+            .headline {
+                padding: 75px 0 25px 0;
+            }
+            eadline h1 {
+                font-size: 60px;
+            }
+            eadline h2 {
+                font-size: 30px;
+            }
+        }
+        @media(max-width:375px) {
+            .featurette-divider {
+                margin: 10px 0;
+            }
+            .featurette-image {
+                max-width: 100%;
+            }
+            .featurette-image.pull-left {
+                margin-right: 0;
+                margin-bottom: 10px;
+            }
+            .featurette-image.pull-right {
+                margin-bottom: 10px;
+                margin-left: 0;
+            }
